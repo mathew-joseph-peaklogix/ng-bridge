@@ -1,0 +1,14 @@
+<div id="bridge-info">
+    <app-bridge-info-panel
+        id="bridge-info-panel"
+        *ngIf="bridge"
+        [bridge]="bridge"
+    >
+    </app-bridge-info-panel>
+    <app-bridge-info-map 
+        id="leaflet-map"
+        *ngIf="bridge"
+        [bridge]="bridge"
+    >        
+    </app-bridge-info-map>
+</div>
