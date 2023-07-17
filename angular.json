@@ -55,6 +55,9 @@
             "scripts": []
           },
           "configurations": {
+            "github-pages": {
+              "baseHref": "/dist/"
+            },
             "production": {
               "budgets": [
                 {
